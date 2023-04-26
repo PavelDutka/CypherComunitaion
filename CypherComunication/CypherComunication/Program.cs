@@ -24,23 +24,18 @@ public partial class Program
             File.WriteAllText("key.txt", Convert.ToBase64String(key));
             File.WriteAllText("iv.txt", Convert.ToBase64String(iv));
 
-            Console.WriteLine("key:", Convert.ToBase64String(key));
-            Console.WriteLine("iv:", Convert.ToBase64String(iv));
-
             Console.WriteLine("Key and initialization vector have been saved to key.txt and iv.txt");
 
             byte[] encrypted = EncryptStringToBytes_Aes(text, key, iv);
 
-            Console.Write("Encrypted text: ");
-            foreach (var x in encrypted)
-            {
-                Console.Write(String.Format("{0:x2} ", x));
-            }
+            Console.WriteLine("Encrypted text: " + Convert.ToBase64String(encrypted));
+            Console.WriteLine("Key: " + Convert.ToBase64String(key));
+            Console.WriteLine("IV: " + Convert.ToBase64String(iv));
         }
         else if (choice.ToLower() == "d")
         {
-            Console.Write("Enter the text to decrypt (in hex format): ");
-            string hexText = Console.ReadLine();
+            Console.Write("Enter the text to decrypt (in base64 format): ");
+            string base64Text = Console.ReadLine();
 
             Console.Write("Enter the key: ");
             string keyString = Console.ReadLine();
@@ -48,12 +43,7 @@ public partial class Program
             Console.Write("Enter the initialization vector: ");
             string ivString = Console.ReadLine();
 
-            byte[] encrypted = new byte[hexText.Length / 2];
-            for (int i = 0; i < hexText.Length; i += 2)
-            {
-                encrypted[i / 2] = Convert.ToByte(hexText.Substring(i, 2), 16);
-            }
-
+            byte[] encrypted = Convert.FromBase64String(base64Text);
             byte[] key = Convert.FromBase64String(keyString);
             byte[] iv = Convert.FromBase64String(ivString);
 
@@ -117,7 +107,7 @@ public partial class Program
             }
         }
 
-   
-    return plaintext;
+        return plaintext;
     }
 }
+
