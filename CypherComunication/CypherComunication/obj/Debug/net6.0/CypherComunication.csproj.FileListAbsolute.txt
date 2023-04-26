@@ -3,3 +3,13 @@ C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunicati
 C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\CypherComunication.AssemblyInfoInputs.cache
 C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\CypherComunication.AssemblyInfo.cs
 C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\CypherComunication.csproj.CoreCompileInputs.cache
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\bin\Debug\net6.0\CypherComunication.exe
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\bin\Debug\net6.0\CypherComunication.deps.json
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\bin\Debug\net6.0\CypherComunication.runtimeconfig.json
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\bin\Debug\net6.0\CypherComunication.dll
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\bin\Debug\net6.0\CypherComunication.pdb
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\CypherComunication.dll
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\refint\CypherComunication.dll
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\CypherComunication.pdb
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\CypherComunication.genruntimeconfig.cache
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\ref\CypherComunication.dll
