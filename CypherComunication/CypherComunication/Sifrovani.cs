@@ -1,10 +1,10 @@
 ﻿using System.Security.Cryptography;
-
+/*
 byte[] key = ...; // klíč
 byte[] iv = ...; // vektor
 byte[] data = ...; // vstupní data - text
 byte[] encrypted; // výstupní data
-​
+*/​
 using (Aes aesAlg = Aes.Create())
 {
     aesAlg.Key = key;
