@@ -1,0 +1,5 @@
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\CypherComunication.csproj.AssemblyReference.cache
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\CypherComunication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\CypherComunication.AssemblyInfoInputs.cache
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\CypherComunication.AssemblyInfo.cs
+C:\Users\witek\Downloads\CypherComunitaion-2\CypherComunication\CypherComunication\obj\Debug\net6.0\CypherComunication.csproj.CoreCompileInputs.cache
